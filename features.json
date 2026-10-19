@@ -1,0 +1,294 @@
+{
+  "_note": "Every HV Reset feature: only for Beta users, for everyone (Beta and public), or coming next. The admin page (Beta features tab) reads this file. Update it with each change; add a picture in features/.",
+  "updated": "2026-10-06",
+  "features": [
+    {
+      "id": "plan",
+      "name": "Plan my day",
+      "area": "Planning",
+      "desc": "Make a day plan in a few taps: tasks, times, breaks and meals.",
+      "status": "everyone",
+      "img": "features/plan.jpg"
+    },
+    {
+      "id": "quickadd",
+      "name": "Add a task",
+      "area": "Planning",
+      "desc": "Add a task for now, today, tomorrow or any date.",
+      "status": "everyone",
+      "img": "features/quickadd.jpg"
+    },
+    {
+      "id": "fullday",
+      "name": "Full day view",
+      "area": "Planning",
+      "desc": "See and edit every task of the day in one list.",
+      "status": "everyone",
+      "img": "features/fullday.jpg"
+    },
+    {
+      "id": "month",
+      "name": "Month calendar",
+      "area": "Planning",
+      "desc": "See the month at a glance. Tap a day to open it.",
+      "status": "everyone",
+      "img": "features/month.jpg"
+    },
+    {
+      "id": "targets",
+      "name": "Session targets",
+      "area": "Timer",
+      "desc": "Before starting, write what you'll finish. Checked at Done (hit, partly, missed).",
+      "status": "beta",
+      "since": "0.9.0",
+      "flag": true,
+      "use": "targets",
+      "img": "features/targets.jpg"
+    },
+    {
+      "id": "proof",
+      "name": "Proof photo",
+      "area": "Timer",
+      "desc": "Attach a photo or link to a finished target, and rate how focused you were.",
+      "status": "beta",
+      "since": "0.9.0",
+      "flag": true,
+      "use": "proof",
+      "img": "features/proof.jpg"
+    },
+    {
+      "id": "focus-level",
+      "name": "Focus level: Easy, Deep, Extreme",
+      "area": "Focus",
+      "desc": "Pick how strict HV Reset is with you. Deep asks “Still on it?” every 20 min and notes time away; Extreme checks in every 10 min, reminds you 20 s after you leave, allows one pause and needs proof at Done.",
+      "status": "beta",
+      "since": "0.10.24",
+      "img": "features/focus-level.jpg",
+      "new": true
+    },
+    {
+      "id": "noti",
+      "name": "Timer alerts",
+      "area": "Timer",
+      "desc": "Notifications at halfway, 5 minutes left and time's up.",
+      "status": "beta",
+      "since": "0.9.0",
+      "flag": true,
+      "use": "noti",
+      "img": "features/noti.jpg"
+    },
+    {
+      "id": "mini",
+      "name": "Mini timer",
+      "area": "Timer",
+      "desc": "A small timer window that stays on top (Chrome and Edge on a computer).",
+      "status": "beta",
+      "since": "0.9.0",
+      "flag": true,
+      "use": "mini",
+      "img": "features/mini.jpg"
+    },
+    {
+      "id": "tab",
+      "name": "Timer in the tab name",
+      "area": "Timer",
+      "desc": "Time left shows in the browser tab title.",
+      "status": "beta",
+      "since": "0.9.0",
+      "flag": true,
+      "use": "",
+      "img": "features/tab.jpg"
+    },
+    {
+      "id": "timer",
+      "name": "Focus timer",
+      "area": "Timer",
+      "desc": "One task at a time with a clear countdown. Start, pause, done.",
+      "status": "everyone",
+      "img": "features/timer.jpg"
+    },
+    {
+      "id": "late",
+      "name": "Running late? Shift the day",
+      "area": "Timer",
+      "desc": "Start late and move the rest of the day by the same time, or keep your times.",
+      "status": "everyone",
+      "img": "features/late.jpg"
+    },
+    {
+      "id": "calm",
+      "name": "Calm focus mode",
+      "area": "Timer",
+      "desc": "Buttons fade away while you work and come back when you move the mouse.",
+      "status": "everyone",
+      "img": "features/calm.jpg"
+    },
+    {
+      "id": "targets-dash",
+      "name": "Targets on the dashboard",
+      "area": "Dashboard",
+      "desc": "Targets hit, sessions and proof shown on the Overview.",
+      "status": "beta",
+      "since": "0.9.0",
+      "use": "",
+      "img": "features/targets-dash.jpg"
+    },
+    {
+      "id": "ov-custom",
+      "name": "Customize Overview",
+      "area": "Dashboard",
+      "desc": "Drag sections into your own order and hide the ones you don't need.",
+      "status": "beta",
+      "since": "0.10.6",
+      "use": "",
+      "img": "features/ov-custom.jpg"
+    },
+    {
+      "id": "score-hero",
+      "name": "Score first on the Overview",
+      "area": "Dashboard",
+      "desc": "Big score card with the parts that make it up, at the top.",
+      "status": "everyone",
+      "since": "0.10.4",
+      "img": "features/score-hero.jpg",
+      "new": true
+    },
+    {
+      "id": "score-made",
+      "name": "How your score is made",
+      "area": "Dashboard",
+      "desc": "See the points each part adds to your score, the biggest gain, and choose how much each part counts (Off, Normal, Important, Top).",
+      "status": "beta",
+      "since": "0.10.22",
+      "img": "features/score-made.jpg",
+      "new": true
+    },
+    {
+      "id": "dash-default",
+      "name": "Default dashboard period",
+      "area": "Dashboard",
+      "desc": "Pick the period the dashboard opens on, the same on every device.",
+      "status": "everyone",
+      "since": "0.10.2",
+      "img": "features/dash-default.jpg",
+      "new": true
+    },
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "area": "Dashboard",
+      "desc": "Your score, time worked, punctuality, trends, reports and insights.",
+      "status": "everyone",
+      "img": "features/dashboard.jpg"
+    },
+    {
+      "id": "hvai-target",
+      "name": "HV AI starts with a target",
+      "area": "HV AI",
+      "desc": "Ask HV AI to start a focus session with a target in one line.",
+      "status": "beta",
+      "since": "0.9.0",
+      "use": "hvai",
+      "img": "features/hvai-target.jpg"
+    },
+    {
+      "id": "hvai",
+      "name": "HV AI",
+      "area": "HV AI",
+      "desc": "Plan or change your day by typing or talking, in Hindi, English or Hinglish.",
+      "status": "everyone",
+      "img": "features/hvai.jpg"
+    },
+    {
+      "id": "route",
+      "name": "Stay on the same screen after refresh",
+      "area": "App",
+      "desc": "Refresh, Back and shared links keep you on the dashboard, Full day or Beta Hub.",
+      "status": "everyone",
+      "since": "0.10.3",
+      "img": "features/route.jpg",
+      "new": true
+    },
+    {
+      "id": "hub",
+      "name": "Beta Hub",
+      "area": "Beta Hub and feedback",
+      "desc": "Tester pass, what's new, known issues, roadmap and credits.",
+      "status": "beta",
+      "since": "0.9.0",
+      "use": "",
+      "img": "features/hub.jpg"
+    },
+    {
+      "id": "report",
+      "name": "Bug reports with screenshot",
+      "area": "Beta Hub and feedback",
+      "desc": "Report a bug with a marked-up screenshot and device info.",
+      "status": "beta",
+      "since": "0.9.0",
+      "use": "report",
+      "img": "features/report.jpg"
+    },
+    {
+      "id": "shake",
+      "name": "Shake to report",
+      "area": "Beta Hub and feedback",
+      "desc": "Shake the phone (or Ctrl+Shift+B) to report a bug.",
+      "status": "beta",
+      "since": "0.9.0",
+      "flag": true,
+      "use": "",
+      "img": "features/shake.jpg"
+    },
+    {
+      "id": "ideas",
+      "name": "Ideas, votes, polls and survey",
+      "area": "Beta Hub and feedback",
+      "desc": "Suggest ideas, vote, answer one-tap polls and the weekly survey.",
+      "status": "beta",
+      "since": "0.9.0",
+      "use": "idea",
+      "img": "features/ideas.jpg"
+    },
+    {
+      "id": "points",
+      "name": "Points and leaderboard",
+      "area": "Beta Hub and feedback",
+      "desc": "Points for reports and ideas, monthly top testers, Founding Tester badge.",
+      "status": "beta",
+      "since": "0.9.0",
+      "use": "",
+      "img": "features/points.jpg"
+    },
+    {
+      "id": "data",
+      "name": "Your data export",
+      "area": "Beta Hub and feedback",
+      "desc": "Download your sessions as CSV or JSON, or share a read-only link.",
+      "status": "beta",
+      "since": "0.9.0",
+      "use": "export",
+      "img": "features/data.jpg"
+    },
+    {
+      "id": "dev",
+      "name": "Dev panel",
+      "area": "Beta Hub and feedback",
+      "desc": "Event log and version info for testers (off by default).",
+      "status": "beta",
+      "since": "0.9.0",
+      "flag": true,
+      "use": "",
+      "img": "features/dev.jpg"
+    },
+    {
+      "id": "stats",
+      "name": "Stats tab",
+      "area": "Beta Hub and feedback",
+      "desc": "Testers see how HV Reset is growing: visitors, sign-ins and tasks done. Shown only when the owner turns it on in Team & access.",
+      "status": "beta",
+      "since": "0.10.8",
+      "img": "features/stats.jpg"
+    }
+  ]
+}
