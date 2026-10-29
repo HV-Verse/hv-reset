@@ -1,0 +1,2 @@
+/*! HV Verse · thehvverse.com · © 2026 HV Verse. All rights reserved. Developed by Harsh Goyal. */
+window.HV_NATIVE={googleWebClientId:"592094409539-dh8cjap3qhpv2jl8v06h45rlj1irkn8l.apps.googleusercontent.com"};
